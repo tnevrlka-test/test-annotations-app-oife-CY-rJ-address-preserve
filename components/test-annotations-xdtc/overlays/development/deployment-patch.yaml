@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-xdtc
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-gjrp-tenant/test-annotations-app-oife/test-annotations-xdtc@sha256:54a3a89b1927d1ad2ff2b85b8bd9de6e18b7a0d85607ec2320ee8e7bae9595f9
+        name: my-nginx
+        resources: {}
+status: {}
